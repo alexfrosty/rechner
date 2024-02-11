@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8"><!--zeichenkodierungsschema-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--nur wichtig für internet explorer, da dieser veraltet ist-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Skalierung des fensters auf Bildschirm, zoom des fensters-->
+        <title>Rechner</title>
+        <link rel="icon" type="image/x-icon" href="Download.jpg">
+    </head>
+    <header>
+        <h1>Rechner</h1>
+        <nav>
+            <ul class="horizontal-list">
+                <li><a style="font-size: 125%" href="">Start</a></li>
+                <li><a style="font-size: 125%" href="">etc.</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <p>geben sie die zwei zahlen ein, die sie addieren wollen</p>
+        <form action="/submit" method="post">
+            <label for="1.Zahl">1.Zahl</label>
+            <input type="text" id="1.zahl" name="1.zahl">
+            <label for="2.Zahl">2.Zahl </label>
+            <input type="text"  id="2.Zahl" name="2.Zahl">
+            <input type="submit" value="Berechnen">
+        </form>
+    </body>
+</html>

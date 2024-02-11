@@ -11,7 +11,7 @@ def submit():
     zahl1= float(request.form['1.Zahl'])
     zahl2= float=(request.form['2.Zahl'])
     ergebnis=zahl1+zahl2
-    
+    ergebnis=1
     return f'Der eingegebene Benutzername ist: {ergebnis}'
 
 if __name__ == '__main__':
